@@ -1,0 +1,70 @@
+.titulo {
+    padding: 5em 0 ;
+    background-color: #000000;
+}
+.titulo h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Libre Baskerville', cursive;
+    color: #f4fff8;
+}
+.noticias {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     background-color: #444444;
+     
+}  
+.noticias a:visited, .noticias a:link, .noticias a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+.noticias a:hover{
+    box-shadow: 5px 5px 10px #000;
+    transition: .3s;
+}
+.noticias a{
+    transition: .7s;
+}
+.tarjeta{
+    width: 15.5em;
+    background-color: #ad1919;
+    margin: 1em ;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: #121212 thin solid;
+    
+}
+.marcoTarjeta {
+    background-color:#444444;
+    padding: .8em;
+    border-radius: 0.5em;
+    border: #000 thin solid;
+}
+ .marcoTarjeta img {
+   max-width: 100%;
+   height: 15em;
+   border-radius: 0.5em 0 0;
+  
+}
+.imagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.textoTarjeta {
+    background-color: aliceblue;
+    padding: 1em;
+    border-radius: 0 0 .5em .5em;
+    margin: 0.2em 0 0 0;
+}
+.textoTarjeta h2 {
+    text-align: center;
+    font-size: 2em; 
+}
+.textoTarjeta h3 {
+    text-align: center;
+}
